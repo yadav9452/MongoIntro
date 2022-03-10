@@ -1,0 +1,21 @@
+>use assignments
+
+> db.createCollection("users")
+
+> db.assignmemts.insert({"first_name":"Rahul","last_name":"Yadav","email":"abc@gmail.com","gender":"Male","ip_address":"1.1.1.1","age":"23"})
+
+> db.called_users.insertMany({"first_name":"Abhishek","last_name":"bharti","email":"a@a.com","gender":"Male","ip_address":"1.1.1.2","age":"24"},
+{"first_name":"Sarika","last_name":"singh","email":"b@b.com","gender":"Female","ip_address":"1.1.1.3","age":"25:})
+
+>db.called_user.find({})
+
+>db.called_user.findOne({})
+
+>db.called_users.update({"_id":"ObjectID("2123232435324353554454"},{$set{"age":25}})
+
+>db.called_users.updateMany({"age":"18"},{$set:{"eligible":"True"}})
+
+>db.called_users.remove({"first_name":"Rahul"})
+
+>db.dropDatabase()
+
